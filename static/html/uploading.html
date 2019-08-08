@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../common/fonts1/iconfont.css">
+    <link rel="stylesheet" href="../style/uploading/uploading.css">
+    <link rel="stylesheet" href="../common/reset2.css">
+</head>
+
+<body>
+    <div class="index-container">
+        <nav>
+            <div class="header">
+                <span>产品管理员</span>
+                <ul>
+                    <li>
+                        <span class="iconfont icon-shizhong1"></span>
+                        <span><a href="./index">仪表板</a></span>
+                    </li>
+                    <li>
+                        <span class="iconfont icon-wodedingdan"></span>
+                        <span>报告
+                            <i class="iconfont icon-angle-down"></i>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="iconfont icon-gouwuche-xuanzhong"></span>
+                        <span><a href="./index1">制品</a></span>
+                    </li>
+                    <li>
+                        <span class="iconfont icon-gerenxinxi"></span>
+                        <span><a href="./personal">账号</a></span>
+                    </li>
+                    <li>
+                        <span class="iconfont icon-set"></span>
+                        <span><a href="./uploading">设置</a></span>
+                    </li>
+                </ul>
+                <div class="header-rigth">
+                    <span>管理员，退出</span>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="products">
+        <div class="box">
+            <div class="header">
+                <h3>添加产品</h3>
+            </div>
+            <div class="section">
+                <div class="section-left">
+                    <div class="pro">
+                        <label>产品名称</label>
+                        <input type="text" id="proname">
+                    </div>
+                    <div class="note">
+                        <label>描述</label>
+                        <textarea name="" id="desc" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="list">
+                        <label for="">类别</label>
+                        <select name="" id="category">
+                            <option value="">选择类别</option>
+                            <option value="">选择类别</option>
+                            <option value="">选择类别</option>
+                            <option value="">选择类别</option>
+                        </select>
+                    </div>
+                    <div class="title">
+                        <div class="date">
+                            <label>原价</label>
+                            <input type="text" id="oprice">
+                        </div>
+                        <div class="unit">
+                            <label>现价</label>
+                            <input type="text" id="newprice">
+                        </div>
+                    </div>
+                </div>
+                <div class="section-right">
+                    <div class="section-right-img">
+                        <i class="iconfont icon-01"></i>
+                        <img src="" alt="" id="propic">
+                    </div>
+                    <div class="section-right-note">
+                        <h3><input type="file" id="productpic">上传产品图片</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <h3 id="addProduct">立即添加产品</h3>
+            </div>
+        </div>
+    </div>
+    <script src="../js/common/ajax.js"></script>
+    <script src="../js/uploading/uploading.js"></script>
+</body>
+
+</html>

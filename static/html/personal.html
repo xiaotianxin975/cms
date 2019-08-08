@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style/personal/personal.css">
+    <link rel="stylesheet" href="../common/reset2.css">
+    <link rel="stylesheet" href="../common/font2/iconfont.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="header">
+                <span>产品管理员</span>
+                <ul>
+                    <li>
+                        <span class="iconfont">&#xeb94;</span>
+                        <span><a href="./index">仪表板</a></span>
+                    </li>
+                    <li>
+                        <span class="iconfont">&#xe647;</span>
+                        <span>报告
+                            <i class="iconfont icon">&#xe62c;</i>
+                        </span>
+                    </li>
+                    <li>
+                        <span class="iconfont">&#xf0179;</span>
+                        <span><a href="./index">制品</a></span>
+                    </li>
+                    <li style="background-color: #ffc107">
+                        <span class="iconfont">&#xe678;</span>
+                        <span>账号</span>
+                    </li>
+                    <li>
+                        <span class="iconfont">&#xe706;</span>
+                        <span><a href="./uploading">设置</a></span>
+                    </li>
+                </ul>
+                <div class="header-rigth">
+                    <span>管理员，退出</span>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="content">
+            <div class="top">
+                <div class="top-content">
+                    <h2>账户清单</h2>
+                    <h4>账号</h4>
+                    <select name="" id="">
+                        <option value="">选择账户</option>
+                        
+                    </select>
+                    <span class="iconfont">&#xe62c;</span>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="bottom-left">
+                    <h2>改变头像</h2>
+                    <img src="" alt="" id="userPic">
+                    <span>上传新照片</span>
+                    <input type="file" class="picture" id="file">
+                </div>
+                <div class="bottom-right">
+                    <h2>账号设定</h2>
+                    <div class="one">
+                        <div>
+                            <span>用户名</span>
+                            <span>账户的电子邮件</span>
+                        </div>
+                        <div>
+                            <input type="text" id="new-username">
+                            <input type="text" id="new-email">
+                        </div>
+                    </div>
+                    <div class="one">
+                        <div>
+                            <span>新密码</span>
+                            <span>确认密码</span>
+                        </div>
+                        <div>
+                            <input type="text" id="new-password">
+                            <input type="text" id="confirmpwd">
+                        </div>
+                    </div>
+                    <div class="one">
+                        <div>
+                            <span>电话📞</span>
+                        </div>
+                        <div>
+                            <input type="text" id="phone">
+                            <i id="update-infor">更新您的个人资料</i>
+                        </div>
+                    </div>
+                    <div class="delete" id="delete">
+                        删除您的账户
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="../js/common/ajax.js"></script>
+    <script src="../js/personal/personal.js"></script>
+</body>
+</html>
